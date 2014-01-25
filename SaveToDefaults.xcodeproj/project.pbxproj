@@ -23,6 +23,10 @@
 		12FEE0A718920FA400491E5C /* SaveToDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE0A618920FA400491E5C /* SaveToDefaultsTests.m */; };
 		12FEE0BC18936C9C00491E5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE0BB18936C9C00491E5C /* SecondViewController.m */; };
 		12FEE0BE1893726500491E5C /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE0BD1893726500491E5C /* img.png */; };
+		12FEE0C018937C1A00491E5C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FEE0BF18937C1A00491E5C /* Twitter.framework */; };
+		12FEE0C218937E9500491E5C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE0C118937E9500491E5C /* twitter.png */; };
+		12FEE0C418937F7600491E5C /* Facebook-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE0C318937F7600491E5C /* Facebook-Icon.png */; };
+		12FEE0C61893807900491E5C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FEE0C51893807900491E5C /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		12FEE0BA18936C9C00491E5C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		12FEE0BB18936C9C00491E5C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		12FEE0BD1893726500491E5C /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		12FEE0BF18937C1A00491E5C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		12FEE0C118937E9500491E5C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../../Desktop/twitter.png; sourceTree = "<group>"; };
+		12FEE0C318937F7600491E5C /* Facebook-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Facebook-Icon.png"; path = "../../../Desktop/Facebook-Icon.png"; sourceTree = "<group>"; };
+		12FEE0C51893807900491E5C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FEE0C61893807900491E5C /* Social.framework in Frameworks */,
+				12FEE0C018937C1A00491E5C /* Twitter.framework in Frameworks */,
 				12FEE07E18920FA300491E5C /* CoreGraphics.framework in Frameworks */,
 				12FEE08018920FA300491E5C /* UIKit.framework in Frameworks */,
 				12FEE07C18920FA300491E5C /* Foundation.framework in Frameworks */,
@@ -106,6 +116,8 @@
 		12FEE07A18920FA300491E5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12FEE0C51893807900491E5C /* Social.framework */,
+				12FEE0BF18937C1A00491E5C /* Twitter.framework */,
 				12FEE07B18920FA300491E5C /* Foundation.framework */,
 				12FEE07D18920FA300491E5C /* CoreGraphics.framework */,
 				12FEE07F18920FA300491E5C /* UIKit.framework */,
@@ -117,6 +129,8 @@
 		12FEE08118920FA300491E5C /* SaveToDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				12FEE0C318937F7600491E5C /* Facebook-Icon.png */,
+				12FEE0C118937E9500491E5C /* twitter.png */,
 				12FEE0BD1893726500491E5C /* img.png */,
 				12FEE08A18920FA300491E5C /* AppDelegate.h */,
 				12FEE08B18920FA300491E5C /* AppDelegate.m */,
@@ -238,6 +252,8 @@
 			files = (
 				12FEE09418920FA400491E5C /* Images.xcassets in Resources */,
 				12FEE08618920FA300491E5C /* InfoPlist.strings in Resources */,
+				12FEE0C418937F7600491E5C /* Facebook-Icon.png in Resources */,
+				12FEE0C218937E9500491E5C /* twitter.png in Resources */,
 				12FEE08F18920FA300491E5C /* Main.storyboard in Resources */,
 				12FEE0BE1893726500491E5C /* img.png in Resources */,
 			);

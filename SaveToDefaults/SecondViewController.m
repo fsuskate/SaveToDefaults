@@ -15,6 +15,38 @@
 
 @implementation SecondViewController
 
+-(IBAction)updateFbStatus:(id)sender
+{
+    SLComposeViewController *fbView = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    if (fbView) {
+        [fbView setInitialText:@"Post from iOS7 app"];
+        [fbView setCompletionHandler:^(SLComposeViewControllerResult result)
+         {
+             switch (result)
+             {
+                 case SLComposeViewControllerResultCancelled:
+                     NSLog(@"Post cancelled");
+                     break;
+                     
+                 case SLComposeViewControllerResultDone:
+                     NSLog(@"Post success");
+                     break;
+                     
+                 default:
+                     break;
+             }
+         }];
+    }
+    [self presentViewController:fbView animated:YES completion:nil];
+}
+
+-(IBAction)sendTweet:(id)sender
+{
+    TWTweetComposeViewController *tweetView = [[TWTweetComposeViewController alloc] init];
+    [tweetView setInitialText:@"<tweet something>"];
+    [self presentModalViewController:tweetView animated:YES];
+}
+
 
 -(IBAction)logout:(id)sender
 {

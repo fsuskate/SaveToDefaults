@@ -109,6 +109,26 @@
                                 <rect key="frame" x="251" y="31" width="69" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYa-IR-atv">
+                                <rect key="frame" x="20" y="136" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tweet" image="twitter.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendTweet:" destination="bpo-A0-2Rd" eventType="touchDown" id="ZAn-jP-O3r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4X-mk-cyl">
+                                <rect key="frame" x="69" y="136" width="45" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Facebook-Icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateFbStatus:" destination="bpo-A0-2Rd" eventType="touchDown" id="8pP-sw-FF3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.87935638090000001" green="0.97200312290000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -122,7 +142,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Facebook-Icon.png" width="1200" height="1203"/>
         <image name="img.png" width="225" height="225"/>
+        <image name="twitter.png" width="1250" height="1250"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Twitter/Twitter.h>
 
 @interface SecondViewController : UIViewController
 {
@@ -15,5 +16,7 @@
 }
 
 -(IBAction)logout:(id)sender;
+-(IBAction)sendTweet:(id)sender;
+-(IBAction)updateFbStatus:(id)sender;
 
 @end
