@@ -21,6 +21,8 @@
 		12FEE09D18920FA400491E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FEE07F18920FA300491E5C /* UIKit.framework */; };
 		12FEE0A518920FA400491E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE0A318920FA400491E5C /* InfoPlist.strings */; };
 		12FEE0A718920FA400491E5C /* SaveToDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE0A618920FA400491E5C /* SaveToDefaultsTests.m */; };
+		12FEE0BC18936C9C00491E5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FEE0BB18936C9C00491E5C /* SecondViewController.m */; };
+		12FEE0BE1893726500491E5C /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE0BD1893726500491E5C /* img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		12FEE0A218920FA400491E5C /* SaveToDefaultsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveToDefaultsTests-Info.plist"; sourceTree = "<group>"; };
 		12FEE0A418920FA400491E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12FEE0A618920FA400491E5C /* SaveToDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveToDefaultsTests.m; sourceTree = "<group>"; };
+		12FEE0BA18936C9C00491E5C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		12FEE0BB18936C9C00491E5C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		12FEE0BD1893726500491E5C /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		12FEE08118920FA300491E5C /* SaveToDefaults */ = {
 			isa = PBXGroup;
 			children = (
+				12FEE0BD1893726500491E5C /* img.png */,
 				12FEE08A18920FA300491E5C /* AppDelegate.h */,
 				12FEE08B18920FA300491E5C /* AppDelegate.m */,
 				12FEE08D18920FA300491E5C /* Main.storyboard */,
@@ -119,6 +125,8 @@
 				12FEE09118920FA300491E5C /* ViewController.m */,
 				12FEE09318920FA400491E5C /* Images.xcassets */,
 				12FEE08218920FA300491E5C /* Supporting Files */,
+				12FEE0BA18936C9C00491E5C /* SecondViewController.h */,
+				12FEE0BB18936C9C00491E5C /* SecondViewController.m */,
 			);
 			path = SaveToDefaults;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 				12FEE09418920FA400491E5C /* Images.xcassets in Resources */,
 				12FEE08618920FA300491E5C /* InfoPlist.strings in Resources */,
 				12FEE08F18920FA300491E5C /* Main.storyboard in Resources */,
+				12FEE0BE1893726500491E5C /* img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FEE0BC18936C9C00491E5C /* SecondViewController.m in Sources */,
 				12FEE09218920FA300491E5C /* ViewController.m in Sources */,
 				12FEE08C18920FA300491E5C /* AppDelegate.m in Sources */,
 				12FEE08818920FA300491E5C /* main.m in Sources */,
@@ -460,6 +470,7 @@
 				12FEE0AC18920FA400491E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12FEE0AD18920FA400491E5C /* Build configuration list for PBXNativeTarget "SaveToDefaultsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				12FEE0AF18920FA400491E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
